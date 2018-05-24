@@ -1,1 +1,8 @@
 ok,this is your face!
+
+fatal: remote origin already exists.
+
+git pull 失败 ,提示：fatal: refusing to merge unrelated histories
+
+
+git pull origin master --allow-unrelated-histories
